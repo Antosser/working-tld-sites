@@ -8,7 +8,7 @@ The program showed that no TLD returns a webpage and none can be viewed in a bro
 
 ### DNS lookups
 The results of this one were quite surprising. I found 11 TLDs with attached A or AAAA records and they were:
-```
+```rust
 [
     ("AI", "209.59.119.34"),
     ("ARAB", "127.0.53.53"),
