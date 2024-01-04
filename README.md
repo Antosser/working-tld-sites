@@ -25,4 +25,4 @@ The results of this one were quite surprising. I found 11 TLDs with attached A o
 ```
 I entered all IPs into the browser, but the only one that worked as AI, the ccTLD of Anguilla: `209.59.119.34`
 
-The IP address `127.0.53.53` occurred 4 times, which is quite interesting. That is a local IP address, which means that it will only work locally on one machine. So, theoretically, you can set up a webserver to listen to `127.0.53.53`, and open it by simply typing in `arab/` or `music/` in Chrome's address bar, even though I couldn't get it to work
+The IP address `127.0.53.53` occurred 4 times, which is quite interesting. That is a local IP address, which means that it will only work locally on one machine. But, as described by [this ICANN post](https://www.icann.org/en/announcements/details/icann-approves-name-collision-occurrence-management-framework--special-ip-address-12705353-alerts-system-administrators-of-potential-issue-1-8-2014-en), it's a special IP address, whiich can show up in logs to resolve naming collisions.
